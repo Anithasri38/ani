@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+         xmlns:batch="http://www.springframework.org/schema/batch"
+         xsi:schemaLocation="
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+      http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch-3.0.xsd
+      ">
+       
+        <bean id="Address1" class="com.question.Address">
+           <property name="city" value="Guntur" />
+           <property name="state" value="AndhraPradesh" />
+        
+        </bean>
+        <bean id="Address2" class="com.question.Address">
+           <property name="city" value="Addanki" />
+           <property name="state" value="Telangana" />
+        
+        </bean>
+        <bean id="customerAddress3" class="com.question.Address">
+           <property name="city" value="Marthali" />
+           <property name="state" value="Bangalore" />
+        
+        </bean>
+        <bean id="customerAddress4" class="com.question.Address">
+           <property name="city" value="Teenagar" />
+           <property name="state" value="TamilNadu" />
+        
+        </bean>
+        
+        <bean id="Customer" class="com.question.Customer">
+           
+           <property name="customerAddress2" ref="Address2" />
+           
+           </bean>
+       <context:annotation-config />
+ </beans>
