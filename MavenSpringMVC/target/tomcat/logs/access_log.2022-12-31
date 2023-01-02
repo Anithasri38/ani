@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:37:56 +0530] "GET / HTTP/1.1" 200 436 http-bio-8080-exec-1 99
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:38:30 +0530] "GET /index HTTP/1.1" 404 961 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:38:41 +0530] "GET /spring-mvc/index HTTP/1.1" 200 186 http-bio-8080-exec-4 45
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:38:43 +0530] "GET /spring-mvc/helloworld HTTP/1.1" 200 153 http-bio-8080-exec-5 13
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:38:59 +0530] "GET /spring-mvc/hello HTTP/1.1" 404 949 http-bio-8080-exec-6 4
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:39:03 +0530] "GET /spring-mvc/helloworld HTTP/1.1" 200 153 http-bio-8080-exec-7 7
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:43:32 +0530] "GET /spring-mvc/hello HTTP/1.1" 404 949 http-bio-8080-exec-1 63
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:43:48 +0530] "GET /spring-mvc/index HTTP/1.1" 200 186 http-bio-8080-exec-3 55
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:43:50 +0530] "GET /spring-mvc/helloworld HTTP/1.1" 404 949 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:44:12 +0530] "GET /spring-mvc/helloworld HTTP/1.1" 404 949 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:44:14 +0530] "GET /spring-mvc/helloworld HTTP/1.1" 404 949 http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [31/Dec/2022:11:44:21 +0530] "GET /index HTTP/1.1" 404 949 http-bio-8080-exec-7 1
