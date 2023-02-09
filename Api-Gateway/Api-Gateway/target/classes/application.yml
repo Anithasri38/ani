@@ -1,0 +1,27 @@
+server:
+  port: 7079
+spring:
+   cloud:
+     gateway:
+        routes:
+          - id: Product-Management
+            uri: http://localhost:7071
+            predicates:
+              - Path=/product/**
+          - id: CartService-Management
+            uri: http://localhost:7072
+            predicates:
+              - Path=/cart/**
+          - id: ProfileService-Management
+            uri: http://localhost:7073
+            predicates:
+              - Path=/profile/**
+          - id: WalletService-Management
+            uri: http://localhost:7076
+            predicates:
+              - Path=/ewallet/**
+          - id: OrderService-Management
+            uri: http://localhost:7074
+            predicates:
+              - Path=/profile/**    
+          
